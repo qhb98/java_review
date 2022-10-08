@@ -1,7 +1,5 @@
 package com.basic;
 
-import sun.awt.windows.WPrinterJob;
-
 /**
  * java程序的运行机制
  * 1. java首先利用文本编辑器编写java源程序, 源文件的后缀名为.java
@@ -16,8 +14,11 @@ import sun.awt.windows.WPrinterJob;
  * JDK环境变量的配置: https://www.bilibili.com/video/BV1za411C7ZD?p=6&spm_id_from=pageDriver&vd_source=7111d4cfa9354342c253c06ecdd64e2f
  * JDK --> Oracle JDK  /  open JDK(免费开源)
  */
-public class what_is_java {
+
+public class WhatIsJava {
     public static void main(String[] args) {
         System.out.println("hello world.");
     }
 }
+
+
