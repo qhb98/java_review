@@ -9,7 +9,7 @@ public class Constant {
     public static void main(String[] args) {
         // 使用关键字 final 来定义一个常量, 常量一旦被初始化后就不能再更改
         final double PI = 3.14;
-        final MAX_SPEED = 120;
+        final int MAX_SPEED = 120;
         // 常量的命名全用大写字母 + 下划线_
 
         // 字符常量  和 符号常量
