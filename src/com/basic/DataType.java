@@ -7,7 +7,7 @@ package com.basic;
  */
 public class DataType {
 
-    public static void main(String[] args) {
+    public static void main() {
 
         int a = 100;
         int b = 015;
