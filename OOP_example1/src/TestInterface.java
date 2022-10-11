@@ -20,6 +20,9 @@ public class TestInterface {
     }
 }
 
+/**
+ * 父接口
+ */
 interface Volant {
     int FLY_HEIGHT = 100;
 
