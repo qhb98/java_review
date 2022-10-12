@@ -168,13 +168,8 @@ Collection 接口 存储一组 不唯一 无序 的对象
 
         hashset是set接口常用的实现类
 
-Map 接口存储一组 键值对象, 提供key到value的映射
-
-
-
-
-
-
+Map 接口存储一组 键值对象, 提供key(其实就是set)到value的映射
+    最常用的实现类就是 hashmap --
 
 
 
