@@ -1,6 +1,9 @@
 package com.test.arraylist;
 
+import com.test.hashset.NewsTitle2;
+
 import java.util.ArrayList;
+import java.util.Iterator;
 
 /**
  * @Description: ArrayList对新闻标题的存储和操作
@@ -33,6 +36,16 @@ public class NewsMgr {
             System.out.println(title.getId());
             System.out.println(title.getTitle());
 //            System.out.println(title.getAuthor());
+        }
+
+        // 使用迭代器iterator遍历
+        // (1) 获取迭代器对象
+        Iterator itor = list.iterator();
+        // (2) 判断是否存在下一个对象
+        while (itor.hasNext()) {
+            // (3) 取出下一个对象
+            NewsTitle titel = (NewsTitle) itor.next();
+            System.out.println(titel.getTitle());
         }
 
         // 测试 contains 等方法
