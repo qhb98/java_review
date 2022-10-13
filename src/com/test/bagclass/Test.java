@@ -1,4 +1,4 @@
-package com.test.baozhuanglei;
+package com.test.bagclass;
 
 import java.util.ArrayList;
 import java.util.List;
