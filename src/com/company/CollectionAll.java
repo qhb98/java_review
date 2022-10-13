@@ -1,9 +1,8 @@
 package com.company;
 
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
+import com.test.arraylist.NewsTitle;
+
+import java.util.*;
 
 /**
  * @Description: 集合框架
@@ -151,6 +150,12 @@ public class CollectionAll {
             }
         };
     }
+
+    class Ah{
+        ArrayList<NewsTitle> titles = new ArrayList<NewsTitle>();
+        // <Student>
+        NewsTitle title = new NewsTitle();
+    }
 }
 
 /*
@@ -171,6 +176,13 @@ Collection 接口 存储一组 不唯一 无序 的对象
 Map 接口存储一组 键值对象, 提供key(其实就是set)到value的映射
     最常用的实现类就是 hashmap --
 
+泛型 -- 将对象的类型作为参数, 指定到其他类或方法上, 从而保证类型转换的安全性和稳定性
+    本质是参数化类型
+
+
+
+java集合框架将针对不同的数据结构算法的实现都保存在工具类中
+collections类定义了一系列用于操作集合的静态方法
 
 
 
